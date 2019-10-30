@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    overflow: scroll;
+}
+
+
+.fundo {
+    /*imagem de cima*/
+    width: 100vw;
+    height: 23vh;
+    float: center;
+    background: url("../img/viagem.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+ .barra{ 
+    width: 100vw;
+    height: 50px;
+    background-color: rgb(0, 0, 255);
+    float: left;
+
+}      
+
+.mainnav ul{
+    text-align: none; 
+    width: 100vw;
+    padding: 0px;   
+    float: left;
+    height: 30px;
+}
+
+.mainnav ul li {
+    display: inline;
+    padding: 0 30px;
+}
+
+.mainnav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.mainnav ul li a:hover{
+	color:rgb(0, 0, 0);
+
+}
+
+.principal {
+    /*imagem de fundo principal*/
+    background: url("../img/aviao.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 120vh;
+    
+}
+
+.log {
+    float: right;
+    margin-right: 50px;
+}
+
+.mainnav .entrar{
+    background-color:rgba(255, 255, 255, 0.699);
+    float: right;
+    height: 25px; 
+    padding-left: 10px; 
+    padding-right: 10px;
+    margin-left: 100px;
+    margin-right: 3vw;  
+}
+/*div cadastro*/
+.cad{
+    background-size: 55px;
+    background-repeat: no-repeat;
+    margin-left: 30vw;
+    margin-top: 100px;
+    border-radius: 15px;
+    background-color:rgb(51, 107, 228);
+    width: 45%;
+    height: 390px;
+    margin: left;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    text-align: left;
+    filter:alpha(opacity=50);    
+    opacity: 0.9;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.cad h2{
+    padding-left: 18vw;
+}
+
+.frmCad{
+    box-shadow: 1px 1px 2px #555252;
+    -moz-box-shadow: 1px 1px 2px #ffffff;
+    background: #aaaaaa;
+    border-radius: 7px;
+    text-align: center;
+    float: right;
+    width: 400px;
+    height: 20px;
+    border: none;
+}
+
+.user{
+    width: 65px;
+    height: 65px;
+    margin-left: 21vw;
+}
+
+.button{
+    color: #ffffff;
+    margin: 10px;
+    background-color: rgba(28, 41, 219, 0.699);
+    margin-left:18vw;
+    border-radius: 7px;
+}
+
+.button:hover{
+    color: black;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:5px;
+    box-shadow: 2px 2px 2px #000000;
+}
+
+/*Página de Login*/
+
+.cad_lo {
+    background-size: 55px;
+    background-repeat: no-repeat;
+    margin-right: 10vw;
+    margin-top: 100px;
+    border-radius: 15px;
+    background-color:rgb(51, 107, 228);
+    width: 30%;
+    height: 375px;
+    float: right;
+    margin: left;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 10px;
+    text-align: left;
+    text
+    filter:alpha(opacity=50);    
+    opacity: 0.9;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.user_lo{
+    width: 60px;
+    height: 60px;
+    margin-left: 0vw;
+}
+
+.cad_lo h2{
+    padding-top: 0px;
+}
+
+.button_lo:hover{
+    color: rgb(0, 0, 0);
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:5px;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+.button_lo{
+    color: rgb(243, 243, 243);
+    margin: 20px;
+    background-color: rgba(28, 41, 219, 0.699);
+    margin-left:25vw;
+    border-radius: 7px;
+}
+
+.back{
+    background: url("../img/praia.jpg ");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 120vh;
+}
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+  }
